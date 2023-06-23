@@ -1,8 +1,9 @@
 # noteapp
 
-bring up the application using Kubernetes (Local Environment) MongoDB and Application 
-deployed in Kubernetes and access it from Kubernetes. 
+the noteapp application deploying  on Kubernetes (Local Environment) and access it from Kubernetes. 
 
-Access the application
+inorder to access the application,
 
- kubectl port-forward deployment/frontend  9000:9000
+run the command 
+
+    kubectl port-forward deployment/frontend  9000:9000
