@@ -15,7 +15,7 @@ spec:
       containers:
         - name: frontend
           image: jasnacp/reactapp:latest
-          ports: 
+          ports:
             - containerPort: 9000
           env:
             - name: baseApiUrl
